@@ -1,22 +1,24 @@
 <?php
 
-namespace App\Models;
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Department extends Model
+class CreateDepartmentsTable extends Migration
 {
-    use HasFactory;
+    public function up()
+    {
+        Schema::create('departments', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('short_name');
+            $table->string('code');
+            $table->timestamps();
+        });
+    }
 
-    protected $table = 'tbldepartments';
-
-    protected $fillable = [
-        'DepartmentName',
-        'DepartmentShortName',
-        'DepartmentCode',
-        'CreationDate',
-    ];
-
-    public $timestamps = false;
+    public function down()
+    {
+        Schema::dropIfExists('departments');
+    }
 }
