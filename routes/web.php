@@ -1,7 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DepartmentController;
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/department/create', [DepartmentController::class, 'create'])->name('department.create');
+Route::post('/department/store', [DepartmentController::class, 'store'])->name('department.store');
