@@ -79,7 +79,7 @@
         @include('partials.nav')
         @include('partials.sidebar')                
         <main class="mn-inner">
-            @yield('container')            
+            @yield('content')           
         </main>
 
     </div>
