@@ -42,7 +42,7 @@ Original project link: [Employee Leaves Management System (ELMS)] https://phpgur
  - Console/ -> Contains custom Artisan commands
  - Exceptions/ -> Contains exception handling classes
  - Http/
-  - 'Controllers/` ->  Controllers/ # Contains controller classes
+  - Controllers/ ->  Controllers/ -> Contains controller classes
   - Middleware/ -> Contains middleware classes
  - Models/ -> Contains Eloquent models
  - Providers/ -> Contains service providers
@@ -88,9 +88,9 @@ Original project link: [Employee Leaves Management System (ELMS)] https://phpgur
 10. Mila Lestari (2208107010002)
 11. Ahmad Arif Nuhuda (240710402156202000)
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-##Acknowledgements
+## Acknowledgements
 - Original projects by PHPGurukul
 - Laravel implementation inspired by various online Laravel  tutorials and resources
