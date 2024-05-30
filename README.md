@@ -38,42 +38,39 @@ Original project link: [Employee Leaves Management System (ELMS)] https://phpgur
 
 ## Project Structure
 ### Laravel Structure
-- app/
- - Console/ -> Contains custom Artisan commands
- - Exceptions/ -> Contains exception handling classes
- - Http/
-  - Controllers/ ->  Controllers/ -> Contains controller classes
-  - Middleware/ -> Contains middleware classes
- - Models/ -> Contains Eloquent models
- - Providers/ -> Contains service providers
- - Services/ -> Contains service classes (optional)
-- bootstrap/ -> Contains the application bootstrap files
-- config/ -> Contains configuration files
-- database/
- - factories/ -> Contains model factory files
- - migrations/ -> Contains database migration files
- - seeders/ -> Contains database seeders
-- public/
- - css/ -> Contains public CSS files
- - js/ -> Contains public JavaScript files
- - images/ -> Contains public image files
- - index.php -> The entry point for the application
-- resources/
- - js/ -> Contains JavaScript assets
- - lang/ -> Contains localization files
- - sass/ -> Contains Sass files
- - views/ -> Contains Blade templates
- - components/ -> Contains Blade components
- - layouts/ -> Contains layout templates
-- routes/
- - api.php -> Contains API routes
- - channels.php -> Contains channel routes for broadcasting
- - console.php -> Contains console commands routes
- - web.php -> Contains web routes
-- storage/
- - app/ -> Contains application storage files
- - framework/ -> Contains framework-generated files and caches
- - logs/ -> Contains application log files
+- `app/`
+  - `Console/` -> Contains custom Artisan commands
+  - `Exceptions/` -> Contains exception handling classes
+  - `Http/`
+  - `Controllers/` ->  Controllers/ -> Contains controller classes
+  - `Middleware/` -> Contains middleware classes
+  - `Models/` -> Contains Eloquent models
+  - `Providers/` -> Contains service providers
+- `bootstrap/` -> Contains the application bootstrap files
+- `config/` -> Contains configuration files
+- `database/`
+   - `factories/` -> Contains model factory files
+   - `migrations/` -> Contains database migration files
+   - `seeders/` -> Contains database seeders
+- `public/`
+   - `css/` -> Contains public CSS files
+   - `js/` -> Contains public JavaScript files
+   - `images/` -> Contains public image files
+   - `index.php` -> The entry point for the application
+- `resources/`
+   - `js/` -> Contains JavaScript assets
+   - `lang/` -> Contains localization files
+   - `sass/` -> Contains Sass files
+   - `views/` -> Contains Blade templates
+- `routes/`
+   - `api.php` -> Contains API routes
+   - `channels.php` -> Contains channel routes for broadcasting
+   - `console.php` -> Contains console commands routes
+   - `web.php` -> Contains web routes
+- `storage/`
+  - `app/` -> Contains application storage files
+  - `framework/` -> Contains framework-generated files and caches
+  - `logs/` -> Contains application log files
 
 ## Contributor
 1. M.Arkan Haris (2208107010022)
