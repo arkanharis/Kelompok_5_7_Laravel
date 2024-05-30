@@ -1,3 +1,7 @@
+
+# Employee-Leave-Management-System
+A leave Management System created with laravel framework using php and blade templating.
+=======
 # Kelompok_5_7_Laravel
 
 # Final Project
@@ -91,3 +95,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Acknowledgements
 - Original projects by PHPGurukul
 - Laravel implementation inspired by various online Laravel  tutorials and resources
+
