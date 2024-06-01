@@ -125,7 +125,7 @@
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span style="color: white; font-size: 16px;">
-                            &copy;  |Created by Activision| <a style="color:#56509f; font-weight:bold;" href="https://3km" target="_blank">3KM</a>
+                        &copy; Created By Team 5 & 7 PBW
                         </span>
                     </div>
                 </div>
